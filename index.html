@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav> <!--Navbar section-->
+        <a href="#home" id="homeid"> Home </a>
+        <a href="#about"> About </a>
+        <a href="#contact"> Contact </a>
+        <a href="#resume"> Resume </a>
+        <a href="#work"> Work </a>
+    </nav> 
+
+    <main> <!--Main section-->
+        
+        <a name="home"></a><br>
+        <div class="homeclass">
+            <h1>Hi i'am Hakim Chamakhi</h1>
+            <h3>A web developer</h3>
+        </div>
+        
+
+        <div class="workclass">
+            <a name="work"></a><br><br>
+            <div>
+                <h1>This is some of my projects</h1>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img alt="projet-PFE" src="pfe.png" width="300" height="360" >
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>What is this Project?</h1>
+                            <p>« Dropers » qu'est une solution de dropshipping qui réduit au maximum le temps nécessaire pour
+                                l’ajout des produits dans une boutique e-commerce en ligne. Elle Facilite la recherche de produits
+                                et leur intégration dans le site e-commerce, la personnalisation de prix et description, de suivre 
+                                les commandes et les ventes. (React JS Node JS Express Mongo DB)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div>
+                <h1>To better understand the features of this project <u>watch this</u> : </h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P0lmRGMXHDQ" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div><br>
+
+        </div>
+
+        <div class="resumeclass">
+            <a name="resume"></a><br><br>
+            <h1>This is my resume</h1>
+            <img alt="Resume" src="Chamakhi-Hakim.png" width="400" height="480" ><br>
+            <span><a href="Chamakhi-Hakim.pdf"> Download CV <img alt="Download Picture" src="download.png"></a></span>
+
+        </div><br>
+
+        <div class="contactclass">
+            <a name="contact"></a><br><br>
+            <h1>Feel free to contact me</h1>
+            <form>
+                <ul class="form-style-1">
+                    <li><label>Full Name <span class="required">*</span></label>
+                        <input type="text" name="first" class="field-divided" placeholder="First Name" /> 
+                        <input type="text" name="last" class="field-divided" placeholder="Last Name" />
+                    </li>
+                    <li>
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="email" class="field-long" />
+                    </li>
+                    <li>
+                        <label>Phone Number <span class="required">*</span></label>
+                        <input type="number" name="phonenumber" class="field-long" />
+                    </li>
+                    <li>
+                        <label>Country</label>
+                        <select name="country" class="field-select">
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Algerie">Algerie</option>
+                        <option value="Egypte">Egypte</option>
+                        <option value="Other">Other</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Your Message <span class="required">*</span></label>
+                        <textarea name="message" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li id="btnid">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    </li>
+                </ul>
+                </form>
+
+        </div><br>
+
+        <div class="aboutclass">
+            <a name="about"></a><br><br>
+            <h1>This is some information about me :</h1>
+            <p>Hi! I am Hakim Chamakhi, a web designer/developer focused on crafting great web experiences. 
+                Designing and Coding have been my passion since the days I started working with computers. 
+                I enjoy creating beautifully designed, intuitive and functional websites.
+            </p><br>
+            <h1> This is some of my skills with level from 0 to 100% :</h1>
+            <table border="1">
+                <tr>
+                  <th>Skills</th>
+                  <th>Level</th>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>80%</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>60%</td>
+                  </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>40%</td>
+                </tr>
+                <tr>
+                    <td>python</td>
+                    <td>40%</td>
+                  </tr>
+                  <tr>
+                    <td>React JS</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <td>Node JS</td>
+                    <td>10%</td>
+                  </tr>
+              </table>
+        </div><br>
+
+    </main>
+    <footer> <!--Footer section-->
+
+        <div class="footerclass1">
+            <h3>Services</h3>
+                <p>E-commerce site</p>
+                <p>Blog</p>
+        </div>
+
+        <div class="footerclass2">
+            <h3>Links</h3>
+                <a href="#work"> Work </a><br><br>
+                <a href="#resume"> Resume </a><br><br>
+                <a href="#contact"> Contact </a><br><br>
+                <a href="#about"> About </a>
+        </div>
+
+        <div class="footerclass3">
+            <h3>Social</h3>
+                <a href="https://www.facebook.com"><img src="facebook.png"> Facebook </a><br>
+                <a href="https://www.instagram.com"><img src="instagram.png"> Insatgram </a><br>
+                <a href="https://www.twitter.com"><img src="twitter.png"> Twitter </a><br>
+                <a href="https://www.youtube.com"><img src="youtube.png"> Youtube </a>
+        </div>
+    </footer>
+</body>
+</html>
